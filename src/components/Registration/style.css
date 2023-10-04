@@ -1,12 +1,32 @@
 form {
-   border: 2px solid grey;
-   border-radius: 10px;
-   padding: 1.5rem;   
+   border: 2px solid #8c8c8c;
+   border-radius: 15px;
+   padding: 1.5rem; 
+   width: 80%;  
+   margin: 0 auto;
 }
 
 input {
     display: block;
-    margin: 0.6rem auto;
+    margin: 0.8rem auto;
     border-radius: 10px;
+    border: 2px solid #bfbfbf;
     padding: 0.5rem;
+    width: 90%;
+}
+
+button {
+    background-color: #f0f0f0;
+    color: #8c8c8c;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 2px solid #8c8c8c;
+    display: block;
+    margin: 1rem auto;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: #8c8c8c;
+    color: white;
 }

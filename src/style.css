@@ -12,6 +12,8 @@ html {
   max-width: 26rem;
   margin-right: auto;
   margin-left: auto;
+  min-height: 90vh;
+  position: relative;
 }
 
 header {
@@ -21,9 +23,20 @@ header {
   margin-top: 4rem;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
+.content-wrap {
+  padding-bottom: 2rem;    /* Footer height */
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 2rem;            /* Footer height */
+ }
+
+ .footer-text {
+  margin: auto;
+  padding-top: 0.3rem;
+ }
+

@@ -6,14 +6,16 @@ import './style.css';
 const App = () => {
   return (
     <div className="container">
-      <header>
-        <h1>Registration</h1>
-      </header>
-      <main>
-        <Registration/>
-      </main>
+      <div className="content-wrap">
+        <header>
+          <h1>Registration</h1>
+        </header>
+        <main>
+          <Registration/>
+        </main>
+      </div>
       <footer>
-        <p>Czechitas, Digitální akademie: Web</p>
+      <div className="footer-text">Czechitas, React course</div>
       </footer>
     </div>
   );
